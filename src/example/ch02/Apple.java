@@ -1,3 +1,5 @@
+package ch02;
+
 public class Apple {
     private int weight;
     private String color;
