@@ -15,7 +15,7 @@
       <file leaf-file-name="DistinctDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch05/DistinctDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="135">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="FlatMapDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch05/FlatMapDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="360">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,7 +51,7 @@
       <file leaf-file-name="SkipDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch05/SkipDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="255">
               <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,7 +63,7 @@
       <file leaf-file-name="BoxedDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch05/BoxedDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="435">
               <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,23 +72,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ABCDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/ch05/ABCDemo.java">
+      <file leaf-file-name="CreateStreamDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/ch05/CreateStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateStreamDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/example/ch05/CreateStreamDemo.java">
+      <file leaf-file-name="ForkJoinSumCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/ch07/ForkJoinSumCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="585">
+              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+              <folding>
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/example/ch07/ForkJoinDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkJoinTask.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="696" column="33" selection-start-line="696" selection-start-column="33" selection-end-line="696" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -96,29 +121,11 @@
       <file leaf-file-name="MatchAndFindDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch05/MatchAndFindDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntBinaryOperator.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/IntBinaryOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -152,14 +159,16 @@
         <option value="$PROJECT_DIR$/src/example/ch05/ReduceDemo.java" />
         <option value="$PROJECT_DIR$/src/example/ch05/BoxedDemo.java" />
         <option value="$PROJECT_DIR$/src/example/ch05/ABCDemo.java" />
-        <option value="$PROJECT_DIR$/src/example/ch05/CreateStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/example/ch03/FuncInterfaceDemo.java" />
+        <option value="$PROJECT_DIR$/src/example/ch05/CreateStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/example/ch07/ForkJoinSumCalculator.java" />
+        <option value="$PROJECT_DIR$/src/example/ch07/ForkJoinDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="320" />
-    <option name="y" value="23" />
+    <option name="x" value="508" />
+    <option name="y" value="119" />
     <option name="width" value="1059" />
     <option name="height" value="735" />
   </component>
@@ -168,6 +177,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="example" type="cbb8eebc:String" user="example" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -201,16 +221,10 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="ch05" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="example" type="cbb8eebc:String" user="example" />
+              <item name="java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="ch07" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateStreamDemo">
+  <component name="RunManager" selected="Application.ForkJoinDemo">
     <configuration name="BoxedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch05.BoxedDemo" />
       <module name="example" />
@@ -241,13 +255,13 @@
       <module name="example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FlatMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.FlatMapDemo" />
+    <configuration name="ForkJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.ForkJoinDemo" />
       <module name="example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MatchAndFindDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.MatchAndFindDemo" />
+    <configuration name="ForkJoinSumCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.ForkJoinSumCalculator" />
       <module name="example" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -280,19 +294,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.FlatMapDemo" />
-      <item itemvalue="Application.MatchAndFindDemo" />
       <item itemvalue="Application.ReduceDemo" />
       <item itemvalue="Application.BoxedDemo" />
       <item itemvalue="Application.CreateStreamDemo" />
+      <item itemvalue="Application.ForkJoinSumCalculator" />
+      <item itemvalue="Application.ForkJoinDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForkJoinDemo" />
+        <item itemvalue="Application.ForkJoinSumCalculator" />
         <item itemvalue="Application.CreateStreamDemo" />
         <item itemvalue="Application.BoxedDemo" />
         <item itemvalue="Application.ReduceDemo" />
-        <item itemvalue="Application.MatchAndFindDemo" />
-        <item itemvalue="Application.FlatMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +321,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="626" y="32" width="1059" height="735" extended-state="0" />
+    <frame x="508" y="119" width="1059" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -315,12 +329,12 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2546706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25958702" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info id="Learn" order="2" weight="0.32940018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -345,6 +359,97 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/example/ch05/DistinctDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch03/FuncInterfaceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch05/FlatMapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch05/SkipDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch05/BoxedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch05/ABCDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch05/MatchAndFindDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/IntBinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch05/CreateStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch02/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -498,14 +603,14 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/IntBinaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="375">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="1110">
           <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
         </state>
       </provider>
@@ -513,14 +618,14 @@
     <entry file="file://$PROJECT_DIR$/src/example/ch05/ABCDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch05/MatchAndFindDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -529,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch05/FlatMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="360">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -539,7 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch05/DistinctDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="135">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -549,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch05/BoxedDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="435">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -559,7 +664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch05/SkipDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="255">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -577,10 +682,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch05/CreateStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="696" column="33" selection-start-line="696" selection-start-column="33" selection-end-line="696" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch07/ForkJoinSumCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch07/ForkJoinDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
