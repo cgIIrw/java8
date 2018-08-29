@@ -7,7 +7,7 @@ public class BestPriceFinderMain {
     static PriceFinder priceFinder = new PriceFinder();
 
     public static void main(String[] args) {
-        execute("StreamSequential", () -> priceFinder.findPrices("myPhone27S"));
+        execute("StreamParallel", () -> priceFinder.findPrices("myPhone27S"));
     }
 
     private static void execute(String msg, Supplier<List<String>> s) {
