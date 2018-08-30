@@ -3,12 +3,15 @@ package ch11;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+/**
+ * 主类，主要用于异步获取产品的价格
+ */
 public class Main {
 
     public static void main(String[] args) {
         Shop shop = new Shop("BestShop");
         long start = System.nanoTime();
-        Future<Double> futurePrice = shop.getPriceAsync("my favorite product");
+        Future<Double> futurePrice = shop.getPriceAsync02("my favorite product");
         long invocationTime = ((System.nanoTime() - start) / 1_000_000);
         System.out.println("Invocation returned after " + invocationTime
                 + " msecs");
