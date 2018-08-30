@@ -7,7 +7,6 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * 一个封装类，用于提供多店铺查找价格方法
@@ -61,4 +60,20 @@ public class PriceFinder {
                 .map(Discount::applyDiscount)
                 .collect(Collectors.toList());
     }
+
+    public List<String> findPricesDis_Compl(String product) {
+        List<CompletableFuture<String>> priceFutures = shops.stream()
+                .map(shop -> CompletableFuture.supplyAsync(
+                        () -> shop.getPrice(product), executor))
+                .map( x -> x.thenApply(Quote::parse))
+                .map(x -> x.thenCompose(quote ->
+                CompletableFuture.supplyAsync(
+                        () -> Discount.applyDiscount(quote), executor)))
+                .collect(Collectors.toList());
+
+        return priceFutures.stream()
+                .map(CompletableFuture::join)
+                .collect(Collectors.toList());
+    }
+
 }

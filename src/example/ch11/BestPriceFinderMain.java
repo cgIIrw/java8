@@ -10,7 +10,7 @@ public class BestPriceFinderMain {
     static PriceFinder priceFinder = new PriceFinder();
 
     public static void main(String[] args) {
-        execute("parallelStream", () -> priceFinder.findPricesDis_stream("myPhone27S"));
+        execute("parallelStream", () -> priceFinder.findPricesDis_Compl("myPhone27S"));
     }
 
     //

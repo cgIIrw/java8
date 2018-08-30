@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa3da911-c30a-41d6-87e6-19b868d06739" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/ch11/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ch11/Discount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example/ch11/PriceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ch11/PriceFinder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriceFinder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PriceFinder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/ch11/PriceFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="48">
+              <caret line="63" column="42" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,14 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BestPriceFinderMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BestPriceFinderMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -189,13 +184,13 @@
         <option value="$PROJECT_DIR$/src/example/ch11/Shop.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/Quote.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/Discount.java" />
-        <option value="$PROJECT_DIR$/src/example/ch11/PriceFinder.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java" />
+        <option value="$PROJECT_DIR$/src/example/ch11/PriceFinder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="600" />
     <option name="y" value="23" />
     <option name="width" value="1059" />
     <option name="height" value="735" />
@@ -360,7 +355,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1059" height="735" extended-state="0" />
+    <frame x="355" y="23" width="1059" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
@@ -368,12 +363,12 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004916" side_tool="true" weight="0.3291536" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49950835" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49950835" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3291536" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49532712" visible="true" weight="0.2782694" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49532712" weight="0.2782694" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info id="Learn" order="2" weight="0.32940018" />
       <window_info id="Structure" order="1" sideWeight="0.5046729" side_tool="true" weight="0.2782694" />
@@ -771,20 +766,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ch11/PriceFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java">
+    <entry file="file://$PROJECT_DIR$/src/example/ch11/PriceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="48">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
