@@ -46,12 +46,19 @@ public class PriceFinder {
         List<CompletableFuture<String>> priceFutures =
                 shops.stream()
                 .map(shop -> CompletableFuture.supplyAsync(
-                        () -> shop.getName() + "price is" +
-                                shop.getPrice(product), executor))
+                        () -> shop.getPrice(product), executor))
                 .collect(Collectors.toList());
 
         return priceFutures.stream()
                 .map(CompletableFuture::join)
+                .collect(Collectors.toList());
+    }
+
+    public List<String> findPricesDis_stream(String product) {
+        return shops.stream()
+                .map(shop -> shop.getPrice(product))
+                .map(Quote::parse)
+                .map(Discount::applyDiscount)
                 .collect(Collectors.toList());
     }
 }

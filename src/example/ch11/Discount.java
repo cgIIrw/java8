@@ -18,4 +18,10 @@ public class Discount {
         delay();
         return price * (100 - code.percentage) / 100;
     }
+
+    public static String applyDiscount(Quote quote) {
+        return quote.getShopName() + " price is " +
+                Discount.apply(quote.getPrice(),
+                        quote.getDiscountCode());
+    }
 }
