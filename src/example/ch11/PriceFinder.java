@@ -97,4 +97,16 @@ public class PriceFinder {
         return priceFutures02.stream().map(CompletableFuture::join)
                 .collect(Collectors.toList());
     }
+
+    public Stream<CompletableFuture<String>> findPricesStream(String product) {
+        return shops.stream()
+                .map(shop -> CompletableFuture.supplyAsync(
+                        () -> shop.getPrice(product), executor))
+                .map( x -> x.thenApply(Quote::parse))
+                .map(x -> x.thenCompose(quote ->
+                        CompletableFuture.supplyAsync(
+                                () -> Discount.applyDiscount(quote), executor)));
+    }
+
+
 }
