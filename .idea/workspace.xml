@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3da911-c30a-41d6-87e6-19b868d06739" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/ch11/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ch11/Discount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/ch11/PriceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ch11/PriceFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example/example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/ch11/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example/ch11/Shop.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/ch11/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state relative-caret-position="585">
+              <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriceFinder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PriceFinder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch11/PriceFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="33">
+              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,13 +93,22 @@
       <file leaf-file-name="BestPriceFinderMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="126">
+              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Supplier.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -178,12 +183,12 @@
         <option value="$PROJECT_DIR$/src/example/ch10/OptionalDemo.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/Main.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/TestEnumDemo.java" />
-        <option value="$PROJECT_DIR$/src/example/ch11/Shop.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/Quote.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/Discount.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/PriceFinderTest.groovy" />
         <option value="$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java" />
         <option value="$PROJECT_DIR$/src/example/ch11/PriceFinder.java" />
+        <option value="$PROJECT_DIR$/src/example/ch11/Shop.java" />
       </list>
     </option>
   </component>
@@ -194,8 +199,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-38" />
-    <option name="y" value="65" />
+    <option name="x" value="122" />
+    <option name="y" value="47" />
     <option name="width" value="1059" />
     <option name="height" value="735" />
   </component>
@@ -373,7 +378,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-38" y="65" width="1059" height="735" extended-state="0" />
+    <frame x="612" y="59" width="1059" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
@@ -381,9 +386,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004916" side_tool="true" weight="0.3291536" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32940018" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49950835" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49950835" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3291536" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info active="true" content_ui="combo" x="434" y="176" width="283" height="428" id="Project" order="0" sideWeight="0.49532712" visible="true" weight="0.2782694" />
@@ -598,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -734,47 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ch11/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch11/PriceFinderTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ch11/Quote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,10 +761,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch11/BestPriceFinderMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ch11/PriceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="33">
+          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch11/Quote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ch11/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

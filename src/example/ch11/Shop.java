@@ -38,7 +38,8 @@ public class Shop {
     // 模拟的计算价格方法，包括延迟动作以及返回一个根据算子随机产生的一个模拟价格
     // 传入产品名，由于每个店名不一样，所以随机算子不一样，于是模拟出不同价格
     private double calculatePrice(String product) {
-        delay();
+//        delay();
+        randomDelay();
         return random.nextDouble() * product.charAt(0) + product.charAt(1);
     }
 
@@ -59,5 +60,17 @@ public class Shop {
     // 返回店铺名
     public String getName() {
         return name;
+    }
+
+    private static final Random random02 = new Random();
+
+    public static void randomDelay() {
+        int delay = 500 + random02.nextInt(2000);
+
+        try {
+            Thread.sleep(delay);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
