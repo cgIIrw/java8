@@ -1,5 +1,6 @@
 package ch11;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -7,6 +8,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 一个封装类，用于提供多店铺查找价格方法
@@ -53,6 +55,7 @@ public class PriceFinder {
                 .collect(Collectors.toList());
     }
 
+    // 串行流处理多异步任务
     public List<String> findPricesDis_stream(String product) {
         return shops.stream()
                 .map(shop -> shop.getPrice(product))
@@ -61,6 +64,7 @@ public class PriceFinder {
                 .collect(Collectors.toList());
     }
 
+    // 用CompletableFuture处理多异步任务
     public List<String> findPricesDis_Compl(String product) {
         List<CompletableFuture<String>> priceFutures = shops.stream()
                 .map(shop -> CompletableFuture.supplyAsync(
@@ -76,4 +80,21 @@ public class PriceFinder {
                 .collect(Collectors.toList());
     }
 
+    // 不采用thenCompose
+    public List<String> findTest(String product) {
+        Stream<CompletableFuture<String>> cf01 = shops.stream().map(shop -> CompletableFuture.supplyAsync(
+                () -> shop.getPrice(product), executor));
+        Stream<CompletableFuture<Quote>> cf02 = cf01.map(x ->
+                x.thenApply(Quote::parse));
+
+//        Stream<CompletableFuture<String>> cf03 = cf02.map(x -> x.thenCompose(quote ->
+//                CompletableFuture.supplyAsync(
+//                        () -> Discount.applyDiscount(quote), executor)));
+        Stream<CompletableFuture<String>> cf04 = cf02.map(x -> x.thenApply(Discount::applyDiscount));
+
+        List<CompletableFuture<String>> priceFutures02 = cf04.collect(Collectors.toList());
+
+        return priceFutures02.stream().map(CompletableFuture::join)
+                .collect(Collectors.toList());
+    }
 }
