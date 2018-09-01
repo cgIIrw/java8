@@ -14,11 +14,11 @@ public class BestPriceFinderMain {
 
         priceFinder.printPricesStream("myPhone27S");
 
-//        try {
-//            Thread.sleep(10000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     //
